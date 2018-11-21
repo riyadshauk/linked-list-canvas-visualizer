@@ -35,7 +35,6 @@ const drawList = (list) => {
     console.log('node.val:', node.val);
     ctx.fillStyle = 'blue';
     ctx.fillRect(curX, curY, nodeWidth, nodeHeight);
-    // canvas_arrow(ctx, curX, curY + nodeHeight / 2, curX + 10, curY + nodeHeight / 2);
     drawArrow(ctx, curX + nodeWidth, curY + nodeHeight / 2, curX + nodeWidth + 30, curY + nodeHeight / 2);
   });
 };
